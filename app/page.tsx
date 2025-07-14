@@ -1,3 +1,4 @@
+import Certifications from "@/component/main/Certifications";
 import Encryption from "@/component/main/Encryption";
 import Hero from "@/component/main/Hero";
 import Projects from "@/component/main/Projects";
@@ -10,7 +11,7 @@ export default function Home() {
     <div className="flex flex-col gap-20">
       <Hero/>
       <Skills/>
-      <Encryption/>
+      <Certifications/>
       <Projects/>
     </div>
    </main>

@@ -82,16 +82,19 @@ export const Skill_data = [
   
   export const Socials = [
     {
+      href: 'https://www.instagram.com/kelvinn_adinata/',
       name: "Discord",
       src: "/instagram.svg",
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      href: 'https://www.linkedin.com/in/kelvin-adinata',
+      name: "Linkedin",
+      src: "/linkedin1.svg",
     },
     {
-      name: "Instagram",
-      src: "/discord.svg",
+      href: 'https://wa.me/082368987147',
+      name: "Whatsaap",
+      src: "/wa.svg",
     },
   ];
   

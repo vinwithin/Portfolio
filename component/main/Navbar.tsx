@@ -25,6 +25,9 @@ const Navbar = () => {
                 <a href="#skills" className='cursor-pointer'>
                     Skills
                 </a>
+                <a href="#certifications" className='cursor-pointer'>
+                    Certifications
+                </a>
                 <a href="#projects" className='cursor-pointer'>
                     Projects
                 </a>
@@ -32,6 +35,12 @@ const Navbar = () => {
           </div>
           <div className='flex flex-row gap-5'>
               {Socials.map((social)=>(
+                <a
+                  key={social.name}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Image src={social.src}
                   alt={social.name}
                   key={social.name}
@@ -39,6 +48,7 @@ const Navbar = () => {
                   height={24}
 
                   />
+                </a>
               ))}
           </div>
       </div>
